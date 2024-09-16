@@ -1,0 +1,57 @@
+[
+    {
+        "label":"Jan",
+        "Chains":31,
+        "Independent":51,
+        "Ecommerce":215
+    },
+
+    {
+        "label":"Feb",
+        "Chains":40,
+        "Independent":32,
+        "Ecommerce":11
+    },
+
+
+    {
+        "label":"Mar",
+        "Chains":28,
+        "Independent":145,
+        "Ecommerce":32
+    },
+
+
+    {
+        "label":"Apr",
+        "Chains":51,
+        "Independent":32,
+        "Ecommerce":18
+    },
+
+
+    {
+        "label":"May",
+        "Chains":142,
+        "Independent":334,
+        "Ecommerce":9
+    },
+
+
+    {
+        "label":"Jun",
+        "Chains":52,
+        "Independent":552,
+        "Ecommerce":24
+    },
+
+
+    {
+        "label":"Jul",
+        "Chains":600,
+        "Independent":201,
+        "Ecommerce":309
+    }
+    
+
+]

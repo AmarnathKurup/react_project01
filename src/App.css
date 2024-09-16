@@ -1,0 +1,25 @@
+body{
+  background-color:#000;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+p{
+  text-align: center;
+  color: #fff;
+}
+
+select{
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.card{
+  display: inline-block;
+  width: 100%;
+  color: #000;
+  font-family: "Nunito", sans-serif;
+}
+
