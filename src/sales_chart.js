@@ -3,7 +3,6 @@ import { Chart as ChartJs } from "chart.js/auto";
 import "./App.css";
 import { Bar, Line } from "react-chartjs-2";
 
-import salesGrowth from "./data/salesGrowth.json";
 
 function Sales_chart() {
   return (
@@ -14,29 +13,38 @@ function Sales_chart() {
             <h5 class="card-title">Sales Growth by Market Channels</h5>
             <h6 class="card-subtitle mb-2 text-muted">
               <Line
+              data={{
+                labels:[
+                  "Jan",
+                  "Feb",
+                  "Mar",
+                  "Apr",
+                  "May",
+                  "Jun",
+                  "Jul"
+                ],
+                datasets: [
+                  {
+                   
+                    labels: "Chains",
+                    data : [31,40,28,51,142,52,600],
+                    tension: 0.4
+                  },
 
-              data = {{
-                labels:salesGrowth.map((data) => data.label),
-                datasets:[
                   {
-                    label : "Chains",
-                    data : salesGrowth.map((data) => data.salesGrowth),
-                    backgroundColor: "#3c3c3c",
-                    bordercolor:"#000"
-              },
-                
-                  {
-                    label : "Independent",
-                    data : salesGrowth.map((data) => data.salesGrowth)
-              },
+                   
+                    labels: "Independent",
+                    data : [51,32,145,32,334,552,201],
+                    tension: 0.4
+                  },
 
                   {
-                    label : "Ecommerce",
-                    data : salesGrowth.map((data) => data.salesGrowth)
-              }
-                ]
-              }}
-             />
+                   
+                    labels: "Ecommerce",
+                    data : [215,11,32,18,309],
+                    tension: 0.4
+                  }
+                ]}}/>
             
             </h6>
           </div>
