@@ -58,7 +58,7 @@ function Cards() {
                   </div>
                   <p class="mt-3 mb-0 text-muted text-sm">
                     <span class="text-success mr-2">
-                      <i class="fas fa-arrow-up"></i> 7.3
+                      <i class="fas fa-arrow-up"></i> 7.3%
                     </span>
                     <p class="text-nowrap text-dark mt-3 mb-1">
                       Vs previous 30 days
@@ -80,7 +80,7 @@ function Cards() {
                   </div>
                   <p class="mt-3 mb-0 text-muted text-sm">
                     <span class="text-danger mr-2">
-                      <i class="fas fa-arrow-down"></i> 1.1
+                      <i class="fas fa-arrow-down"></i> 1.1%
                     </span>
                     <p class="text-nowrap text-dark mt-3 mb-1">
                       Vs previous 30 days
@@ -124,7 +124,7 @@ function Cards() {
                   </div>
                   <p class="mt-3 mb-0 text-muted text-sm">
                     <span class="text-danger mr-2">
-                      <i class="fas fa-arrow-down"></i> 1.2
+                      <i class="fas fa-arrow-down"></i> 1.2%
                     </span>
                     <p class="text-nowrap text-dark mt-3 mb-1">
                       Vs previous 30 days
